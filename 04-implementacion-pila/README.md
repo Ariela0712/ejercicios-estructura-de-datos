@@ -1,4 +1,3 @@
-# Estructura-de-datos-Pilas-LIFO
 # Implementación de una pila enlazada y editor de notas
 
 Ejercicio de Java que implementa una pila genérica enlazada (`LinkedStack`) y la utiliza para simular un editor de texto básico con opción de deshacer.
@@ -45,14 +44,13 @@ La clase `EditorNotas` ofrece:
 ## Estructura del proyecto
 
 ```text
-.
-├── README.md
-└── ImplementacionPila/
-    ├── EditorNotas.java
-    ├── IStack.java
-    ├── LinkedStack.java
-    ├── Main.java
-    └── Nodo.java
+04-implementacion-pila/
+├── EditorNotas.java
+├── IStack.java
+├── LinkedStack.java
+├── Main.java
+├── Nodo.java
+└── README.md
 ```
 
 Descripción de los archivos:
@@ -79,12 +77,11 @@ javac -version
 
 ## Cómo compilar y ejecutar
 
-Abre una terminal en la raíz del repositorio y entra a la carpeta de las clases.
+Abre una terminal en la carpeta del ejercicio (`04-implementacion-pila`).
 
 ### Windows (PowerShell)
 
 ```powershell
-cd ImplementacionPila
 New-Item -ItemType Directory -Force out
 javac -d out IStack.java Nodo.java LinkedStack.java EditorNotas.java Main.java
 java -cp out Main
@@ -93,13 +90,12 @@ java -cp out Main
 ### macOS o Linux
 
 ```bash
-cd ImplementacionPila
 mkdir -p out
 javac -d out IStack.java Nodo.java LinkedStack.java EditorNotas.java Main.java
 java -cp out Main
 ```
 
-La compilación deja los archivos `.class` en `ImplementacionPila/out`, separados de los archivos fuente.
+La compilación deja los archivos `.class` en la carpeta `out`, separados de los archivos fuente.
 
 ## Pruebas incluidas
 
