@@ -1,5 +1,3 @@
-# Estructura-de-datos.-Lista-de-profesores
-
 # Sistema de control de profesores
 
 Aplicación de consola desarrollada en Java para registrar profesores y consultar su información mediante una lista simplemente enlazada implementada en el proyecto.
@@ -30,28 +28,26 @@ En el departamento de Informática se necesita controlar los datos de los profes
 - JDK instalado (incluye `javac` y `java`).
 - Terminal o consola para compilar y ejecutar el programa.
 
-## Estructura del repositorio
+## Estructura del proyecto
 
 ```text
-.
-├── README.md
-└── lista-profesores/
-    ├── List.java
-    ├── LinkedList.java
-    ├── Nodo.java
-    ├── Profesor.java
-    ├── ListaProfesores.java
-    ├── Validaciones.java
-    ├── Sistema.java
-    └── Main.java
+03-lista-profesores/
+├── LinkedList.java
+├── List.java
+├── ListaProfesores.java
+├── Main.java
+├── Nodo.java
+├── Profesor.java
+├── Sistema.java
+├── Validaciones.java
+└── README.md
 ```
 
 ## Compilar y ejecutar
 
-Desde la raíz del repositorio, entra en la carpeta `lista-profesores`:
+Abre una terminal en la carpeta del ejercicio (`03-lista-profesores`) y ejecuta:
 
 ```powershell
-cd lista-profesores
 javac List.java LinkedList.java Nodo.java Profesor.java ListaProfesores.java Validaciones.java Sistema.java Main.java
 java Main
 ```
@@ -68,7 +64,7 @@ Al ejecutar el programa aparecerá un menú. Selecciona una opción introduciend
 | 6 | Ejecutar casos de ejemplo de los métodos |
 | 0 | Salir |
 
-La compilación genera archivos `.class` en la carpeta `lista-profesores`. Estos son archivos generados y no son necesarios para subir el código fuente al repositorio.
+La compilación genera archivos `.class` en la carpeta del ejercicio.
 
 ## Implementación de la lista
 
