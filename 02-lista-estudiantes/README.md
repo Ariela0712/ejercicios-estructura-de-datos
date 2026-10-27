@@ -1,5 +1,3 @@
-# Estructura-de-datos-Lista-de-estudiantes
-
 # Sistema de control de estudiantes
 
 Aplicación de consola desarrollada en Java para registrar estudiantes y consultar información usando una lista simplemente enlazada implementada en el proyecto.
@@ -54,33 +52,29 @@ El mes de cumpleaños se obtiene de los dígitos 3 y 4 del CI. Al registrar un e
 - JDK instalado, con `javac` y `java` disponibles en la terminal.
 - No se necesitan dependencias externas.
 
-## Estructura del repositorio
+## Estructura del proyecto
 
 ```text
-.
-├── README.md
-└── lista-estudiantes/
-    ├── Estudiante.java
-    ├── LinkedList.java
-    ├── List.java
-    ├── ListaEstudiantes.java
-    ├── Main.java
-    ├── Nodo.java
-    ├── Sistema.java
-    └── Validacion.java
+02-lista-estudiantes/
+├── Estudiante.java
+├── LinkedList.java
+├── List.java
+├── ListaEstudiantes.java
+├── Main.java
+├── Nodo.java
+├── Sistema.java
+├── Validacion.java
+└── README.md
 ```
 
 ## Compilar y ejecutar
 
-Desde la raíz del repositorio, ejecuta:
+Abre una terminal en la carpeta del ejercicio (`02-lista-estudiantes`) y ejecuta:
 
-```powershell
-cd lista-estudiantes
+```bash
 javac *.java
 java Main
 ```
-
-También puedes abrir la terminal directamente dentro de `lista-estudiantes` y ejecutar `javac *.java` seguido de `java Main`.
 
 Al iniciar aparecerá el menú. Para probar los métodos, selecciona la opción **6. Ejecutar casos de prueba**. Los resultados se muestran en la consola.
 
