@@ -90,4 +90,4 @@ Dentro de cada carpeta de ejercicio están los archivos `.java` y su `README.md`
 
 ## Autoría y contribuciones
 
-Repositorio creado y mantenido por [@<Ariela0712>](https://github.com/<tu-usuario>) con fines didácticos.
+Repositorio creado y mantenido por [@Ariela0712](https://github.com/<tu-usuario>) con fines didácticos.
